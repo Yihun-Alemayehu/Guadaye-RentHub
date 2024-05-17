@@ -84,8 +84,8 @@ Once the app is up and running, you can explore its features:
 ## Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/11.png" alt="Home Screen" width="600" />
-  <img src="assets/screenshots/1.png" alt="Property Listing" width="600" />
+  <img src="assets/screenshots/11.png" alt="Home Screen" width="800" />
+  <img src="assets/screenshots/1.png" alt="Property Listing" width="800" />
   <img src="assets/screenshots/2.png" alt="Property Details" width="600" />
   <img src="assets/screenshots/3.png" alt="Booking" width="600" />
   <img src="assets/screenshots/4.png" alt="Profile" width="600" />
