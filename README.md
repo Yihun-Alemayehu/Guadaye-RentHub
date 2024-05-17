@@ -54,7 +54,7 @@ Ensure you have the following installed:
 
 1. Clone the repo
 ```sh
-git clone https://github.com/yourusername/guadaye-home-rent.git
+git clone https://github.com/Yihun-Alemayehu/guadaye-home-rent.git
 ```
 2. Navigate to the project directory
 ```sh
@@ -84,11 +84,15 @@ Once the app is up and running, you can explore its features:
 ## Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/home_screen.png" alt="Home Screen" width="200" />
-  <img src="assets/screenshots/property_listing.png" alt="Property Listing" width="200" />
-  <img src="assets/screenshots/property_details.png" alt="Property Details" width="200" />
-  <img src="assets/screenshots/booking.png" alt="Booking" width="200" />
-  <img src="assets/screenshots/profile.png" alt="Profile" width="200" />
+  <img src="assets/screenshots/11.png" alt="Home Screen" width="600" />
+  <img src="assets/screenshots/1.png" alt="Property Listing" width="600" />
+  <img src="assets/screenshots/2.png" alt="Property Details" width="600" />
+  <img src="assets/screenshots/3.png" alt="Booking" width="600" />
+  <img src="assets/screenshots/4.png" alt="Profile" width="600" />
+  <img src="assets/screenshots/5.png" alt="Home Screen" width="600" />
+  <img src="assets/screenshots/6.png" alt="Property Listing" width="600" />
+  <img src="assets/screenshots/7.png" alt="Property Details" width="600" />
+  <img src="assets/screenshots/8.png" alt="Booking" width="600" />
 </p>
 
 ## Roadmap
@@ -116,21 +120,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter_handle](https://twitter.com/your_twitter_handle) - your.email@example.com
+Yihun Alemayehu - yankure01@gmail.com
 
-Project Link: [https://github.com/yourusername/guadaye-home-rent](https://github.com/yourusername/guadaye-home-rent)
 
 ## Acknowledgements
 
 - [Flutter](https://flutter.dev/)
 - [Firebase](https://firebase.google.com/)
 - [Google Cloud Platform](https://cloud.google.com/)
-- [Home Rental Design Inspiration](https://example.com)
-- [Open Source Contributors](https://github.com/yourusername/guadaye-home-rent/graphs/contributors)
 ```
-
-### Explanation for Horizontal Alignment
-- The `<p align="center">` tag centers the block of images.
-- `<img src="..." alt="..." width="200" />` tags are used to include and resize the images to 200px width. Adjust this value as needed.
-
-By using HTML within your Markdown file, you can easily control the layout and ensure the screenshots are displayed side by side, enhancing the visual appeal of your README file.
