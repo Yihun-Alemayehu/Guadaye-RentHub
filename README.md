@@ -1,97 +1,136 @@
 # Guadaye-RentHub : Home rent mobile app
 
-## Introduction
+![License](https://img.shields.io/github/license/yourusername/guadaye-home-rent)
+![Issues](https://img.shields.io/github/issues/yourusername/guadaye-home-rent)
+![Forks](https://img.shields.io/github/forks/yourusername/guadaye-home-rent)
+![Stars](https://img.shields.io/github/stars/yourusername/guadaye-home-rent)
 
-Welcome to our Flutter Gojo-RentHub home rent mobile app project! Gojo-RentHub is designed to simplify the process of finding and renting homes, offering a seamless experience for both tenants and landlords. This project showcases the capabilities of Flutter in building a robust and feature-rich application for all sector.
+## Table of Contents
+- [About the Project](#about-the-project)
+  - [Features](#features)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
+## About the Project
+
+The Guadaye Home Rent mobile app is designed to provide a seamless and efficient way for users to find and rent homes. Whether you're looking for a short-term rental or a long-term home, Guadaye makes the process simple and convenient.
+
+### Features
+- **Browse Listings**: Explore a wide range of rental properties.
+- **Advanced Search**: Use filters to find the perfect home based on location, price, amenities, and more.
+- **User Profiles**: Create and manage profiles with saved searches and favorite listings.
+- **Booking and Payments**: Securely book and pay for rentals directly through the app.
+- **Landlord Communication**: Contact landlords easily for inquiries or scheduling viewings.
+- **Reviews and Ratings**: Read reviews from previous tenants and rate your rental experience.
+- **Virtual Tours**: View the property with emersive 360 panoramic view.
+
+### Built With
+- [Flutter](https://flutter.dev/) - Cross-platform mobile framework
+- [Firebase](https://firebase.google.com/) - Backend services including authentication and real-time database
+- [Google Cloud Platform](https://cloud.google.com/) - Cloud hosting and storage
+- [Dart](https://dart.dev/) - Programming language
 
 ## Getting Started
 
-Before you begin contributing, make sure you have the following prerequisites installed:
+To get a local copy up and running follow these simple steps.
 
-- Flutter SDK(Latest stable version): [Install Flutter](https://flutter.dev/docs/get-started/install)
+### Prerequisites
 
-Clone the repository to your local machine:
+Ensure you have the following installed:
+- Flutter SDK: [Installation Guide](https://flutter.dev/docs/get-started/install)
+- Dart: Included with Flutter SDK
+- Firebase CLI: [Installation Guide](https://firebase.google.com/docs/cli)
 
-```bash
-git clone https://github.com/your-username/Gojo-RentHub.git
-cd Gojo-RentHub
+### Installation
+
+1. Clone the repo
+```sh
+git clone https://github.com/yourusername/guadaye-home-rent.git
 ```
-
-Install dependencies:
-
-```bash
+2. Navigate to the project directory
+```sh
+cd guadaye-home-rent
+```
+3. Install Flutter packages
+```sh
 flutter pub get
 ```
+4. Set up Firebase for the project (iOS and Android)
+   - Follow the instructions in the [Firebase documentation](https://firebase.google.com/docs/flutter/setup).
 
-## Project Structure
+5. Run the app
+```sh
+flutter run
+```
 
-The project is organized into the following main directories:
+## Usage
 
-- **lib**: Contains the Dart code for the Flutter application.
-- **assets**: Includes static assets such as images and fonts.
-- **test**: Houses unit and widget tests.
+Once the app is up and running, you can explore its features:
+- **Sign Up/Login**: Create a new account or log in with existing credentials.
+- **Browse Listings**: Explore properties by location or use the search feature.
+- **Contact Landlords**: Send messages to landlords to schedule viewings or ask questions.
+- **Book Rentals**: Securely book and pay for your rental through the app.
+- **Manage Profile**: Update your profile information and view your rental history.
 
+## Screenshots
 
-lib directory is organized into the following sub directories:
+<p align="center">
+  <img src="assets/screenshots/home_screen.png" alt="Home Screen" width="200" />
+  <img src="assets/screenshots/property_listing.png" alt="Property Listing" width="200" />
+  <img src="assets/screenshots/property_details.png" alt="Property Details" width="200" />
+  <img src="assets/screenshots/booking.png" alt="Booking" width="200" />
+  <img src="assets/screenshots/profile.png" alt="Profile" width="200" />
+</p>
 
-- **lib**: Contains the Dart code for the Flutter application.
-  - **shared**: Shared functionalities and components across different modules.
-  - **house**:
-    - **repo/services**: Contains repositories and services related to house management.
-    - **bloc**: Houses business logic components using the BLoC pattern for house-related features.
-    - **presentation**: Contains screens and widgets for displaying house-related information and interactions.
-  - **auth**:
-    - **repo/services**: Includes repositories and services related to authentication and user management.
-    - **bloc**: Houses business logic components using the BLoC pattern for authentication and user-related features.
-    - **presentation**: Contains screens and widgets for authentication flows and user management.
-  - **profile**:
-    - **repo/services**: Consists of repositories and services related to user profiles and settings.
-    - **bloc**: Contains business logic components using the BLoC pattern for profile-related features.
-    - **presentation**: Contains screens and widgets for displaying user profiles and managing profile settings.
+## Roadmap
 
-N.B: You can add new features not mentioned above
+We are continuously working to improve the app and add new features. Here's what's coming next:
+- [ ] Enhanced Search Filters
+- [ ] Tenant Insurance Options
+- [ ] Multi-language Support
+- [ ] Push Notifications for New Listings
 
-## Contributing Guidelines
+See the [open issues](https://github.com/yourusername/guadaye-home-rent/issues) for a full list of proposed features and known issues.
 
-1. **Fork the Repository**: Click the "Fork" button at the top right corner of the repository to create your copy.
+## Contributing
 
-2. **Create a Branch**: For each new feature or bug fix, create a new branch with a descriptive name:
+We welcome contributions to enhance the app! Here's how you can get involved:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-   ```bash
-   git checkout -b your-feature-name
-   ```
+## License
 
-3. **Commit Changes**: Make your changes, and commit them with clear and concise messages:
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-   ```bash
-   git commit -m "Add feature/fix: description"
-   ```
+## Contact
 
-4. **Push Changes**: Push your changes to your forked repository:
+Your Name - [@your_twitter_handle](https://twitter.com/your_twitter_handle) - your.email@example.com
 
-   ```bash
-   git push origin your-feature-name
-   ```
+Project Link: [https://github.com/yourusername/guadaye-home-rent](https://github.com/yourusername/guadaye-home-rent)
 
-5. **Submit a Pull Request**: Open a pull request from your forked repository to the main project repository.
+## Acknowledgements
 
-6. **Code Review**: Expect feedback and be responsive to comments. Make necessary changes and update your pull request.
+- [Flutter](https://flutter.dev/)
+- [Firebase](https://firebase.google.com/)
+- [Google Cloud Platform](https://cloud.google.com/)
+- [Home Rental Design Inspiration](https://example.com)
+- [Open Source Contributors](https://github.com/yourusername/guadaye-home-rent/graphs/contributors)
+```
 
-7. **Merge**: Once your pull request is approved, it will be merged into the main branch.
+### Explanation for Horizontal Alignment
+- The `<p align="center">` tag centers the block of images.
+- `<img src="..." alt="..." width="200" />` tags are used to include and resize the images to 200px width. Adjust this value as needed.
 
-## Code Style
-
-Follow the [Dart Style Guide](https://dart.dev/guides/language/effective-dart/style) for code formatting. Make sure to run `dart format` before committing your changes.
-
-## Issues and Discussions
-
-Feel free to open issues for bug reports, feature requests, or any other concerns. Join our discussions in the GitHub repository to share ideas and insights.
-
-## Acknowledgments
-
-Thank you for being the contributor to Flutter Gojo-RentHub Project. 
-
-Happy coding!
-
-[The Broker Boyz]
-
+By using HTML within your Markdown file, you can easily control the layout and ensure the screenshots are displayed side by side, enhancing the visual appeal of your README file.
